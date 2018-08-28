@@ -3,7 +3,7 @@ let recipes = []
 
 function updateObjectWithKeyAndValue(object, key, value) {
   let newobject = {}
-  newobject = Object.assign({}, object, {key, value});
+  newobject = [key] value);
   return object
 }
 //it does not modifythe original object, but rather returns a clone with the new data
