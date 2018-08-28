@@ -24,7 +24,7 @@ function deleteFromObjectByKey(object, key) {
   return newobj
 }
 /*
-=======
+
   recipies
 }
 
@@ -39,7 +39,6 @@ function deleteFromObjectByKey() {
   
 }
 
->>>>>>> 584943599199d000565969f6d1c7f45cc8ff1771
 var obj = { foo: 'bar' }
  
 var newObj = Object.assign({}, obj)
