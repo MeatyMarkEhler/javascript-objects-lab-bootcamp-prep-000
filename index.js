@@ -2,10 +2,11 @@
 let recipes = []
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  let newobject = {}
-  newobject = [key] value);
+  object[key] = value
   return object
 }
+
+
 //it does not modifythe original object, but rather returns a clone with the new data
 // returns an object with the orignal key value pairs and the new key value pair:
 
